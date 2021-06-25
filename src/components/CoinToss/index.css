@@ -1,0 +1,122 @@
+.container {
+  height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-div {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.heads-tails-text {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 10px 10px 10px;
+}
+
+.coin-image-div {
+}
+
+img {
+  height: 155px;
+}
+
+button {
+  color: #a35200;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 7px 14px 7px 14px;
+  background-color: #f9d423;
+  border: 0;
+  border-radius: 6px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.result-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-count {
+  color: #475569;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.heads-count {
+  color: #475569;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.tails-count {
+  color: #475569;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+
+  .heads-tails-text {
+    font-size: 25px;
+  }
+
+  img {
+    height: 250px;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 7px 19px 7px 19px;
+  }
+
+  .content-div {
+    width: 75%;
+  }
+
+  .result-div {
+    width: 100%;
+    margin: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .total-count {
+    font-size: 22px;
+  }
+
+  .heads-count {
+    font-size: 22px;
+  }
+
+  .tails-count {
+    font-size: 22px;
+  }
+}
